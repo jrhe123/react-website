@@ -1,0 +1,18 @@
+.mobile-input{
+	height: 200px;
+	width: 200px;
+	cursor: pointer;
+}
+
+.img-wrapper{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 200px;
+	width: 200px;
+	z-index: 999;
+}
+
+.img-wrapper input{
+	opacity: 0;
+}

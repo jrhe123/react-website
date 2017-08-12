@@ -1,0 +1,12 @@
+video{
+
+	display: block !important;
+	margin: 0 auto;
+}
+
+.react-progress-bar-percent{
+	height: 3px;
+	background: #c0392b;
+	box-shadow: 0 0 10px #c0392b, 0 0 5px #c0392b;
+	transition: all 500ms ease;
+}

@@ -1,0 +1,16 @@
+.custom-count{
+	cursor: pointer;
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background: #3498db;
+	color: #fff;
+	text-align: center;
+	line-height: 100px;
+	font-size: 22px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
