@@ -5,12 +5,20 @@ import ReactDOM from 'react-dom';
 import {AppContainer} from 'react-hot-loader';
 
 
+// redux
+import store from './stores';
+import {Provider} from 'react-redux';
+
+
+
 // Routes contains all components
 import routes from './routes';
 
 
 // styled-component
 import './theme/globalStyle';
+
+
 
 
 
@@ -29,8 +37,12 @@ if (module.hot) {
 
 
 ReactDOM.render(
-	<AppContainer>
-		{routes}
-	</AppContainer>,
+  <Provider store={store.configureStore()}>
+    
+    	<AppContainer>
+    		{routes}
+    	</AppContainer>
+      
+  </Provider>,
 	document.getElementById('root')
 );

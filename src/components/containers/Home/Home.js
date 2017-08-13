@@ -41,9 +41,10 @@ export default class Home extends Component {
 			textIdx: 0,
 			textArr: [
 				'Hello World! Get Started!',
-				'Roy Test, This is my react demo.',
+				'Roy Test, This is my react & redux demo.',
+				"It's connected to My NodeJS Restful API.",
 				'I am a Full Stack Developer.',
-				'Awesome! See more info in the burger menu!',
+				"Awesome! let's see more info in the burger menu!",
 			],
 			showText: true
 		}	
@@ -61,7 +62,7 @@ export default class Home extends Component {
     	setTimeout(() => {
 	    	this.setState({
 	    		showText: false,
-	    		textIdx: this.state.textIdx < 3 ? this.state.textIdx + 1 : 0
+	    		textIdx: this.state.textIdx < 4 ? this.state.textIdx + 1 : 0
 	    	})
 
 	    	setTimeout(() => {
