@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.42d143d8.css",
   "main.css.map": "static/css/main.42d143d8.css.map",
-  "main.js": "static/js/main.14da44d7.js",
-  "main.js.map": "static/js/main.14da44d7.js.map",
+  "main.js": "static/js/main.6e12713d.js",
+  "main.js.map": "static/js/main.6e12713d.js.map",
   "static\\media\\alibaba.png": "static/media/alibaba.4e87d5a4.png",
   "static\\media\\angular.svg": "static/media/angular.48ae79d9.svg",
   "static\\media\\apache2.png": "static/media/apache2.497907d3.png",
@@ -24,6 +24,7 @@
   "static\\media\\laravel.png": "static/media/laravel.a3acfb55.png",
   "static\\media\\linux.png": "static/media/linux.e3b15408.png",
   "static\\media\\mailchimp.jpg": "static/media/mailchimp.ed13fb44.jpg",
+  "static\\media\\mlab.png": "static/media/mlab.a6477eb9.png",
   "static\\media\\mysql.png": "static/media/mysql.0d9ca2be.png",
   "static\\media\\nodejs.png": "static/media/nodejs.50d0834e.png",
   "static\\media\\oracel.jpg": "static/media/oracel.d2f0627c.jpg",
