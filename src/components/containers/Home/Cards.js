@@ -39,7 +39,7 @@ export default class Cards extends Component {
                 <img className="item-logo" src={require('../../../assets/redux.png')} />
                 <CardTitle>Redux</CardTitle>
                 <CardCate>Front End</CardCate>
-                <CardDesc>From the very beginning, we need to stress that Redux has no relation to React.</CardDesc>
+                <CardDesc>Redux Store</CardDesc>
                 <CardButton>View</CardButton>
               </Card>
               <Card>
@@ -69,7 +69,7 @@ export default class Cards extends Component {
               </Card>
               <Card>
                 <img className="item-logo" src={require('../../../assets/angular.svg')} />
-                <CardTitle>PHP</CardTitle>
+                <CardTitle>AngularJS</CardTitle>
                 <CardCate>
                   Front End
                 </CardCate>
@@ -80,7 +80,7 @@ export default class Cards extends Component {
               </Card>
               <Card>
                 <img className="item-logo" src={require('../../../assets/codeigniter.svg')} />
-                <CardTitle>PHP</CardTitle>
+                <CardTitle>CodeIgniter</CardTitle>
                 <CardCate>
                   Back End
                 </CardCate>
@@ -679,6 +679,17 @@ export default class Cards extends Component {
                 </CardCate>
                 <CardDesc>
                   Git Management
+                </CardDesc>
+                <CardButton>View</CardButton>
+              </Card>
+              <Card>
+                <img className="item-logo" src={require('../../../assets/mlab.png')} />
+                <CardTitle>MLab</CardTitle>
+                <CardCate>
+                  Service
+                </CardCate>
+                <CardDesc>
+                  MongoDB Online Service
                 </CardDesc>
                 <CardButton>View</CardButton>
               </Card>
