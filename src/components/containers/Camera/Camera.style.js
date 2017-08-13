@@ -2,8 +2,8 @@ import styled, {css} from 'styled-components';
 
 export const CameraDiv = styled.div`
   
+  	background: #fff;
 	width:800px;
-	height: 600px;
 	padding: 48px 36px;
 	border-radius: 6px;
 	margin: 0 auto;

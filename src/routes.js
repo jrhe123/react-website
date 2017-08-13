@@ -17,6 +17,8 @@ import MobileCamera from './components/containers/MobileCamera/MobileCamera';
 import Scroll from './components/containers/Scroll/Scroll';
 import MasonryPage from './components/containers/Masonry/Masonry';
 import Modal from './components/containers/Modal/Modal';
+import Chart from './components/containers/Chart/Chart';
+import CreditCard from './components/containers/CreditCard/CreditCard';
 import App from './components/layout/App/App';
 
 
@@ -54,6 +56,8 @@ export default (
       <Route path="/scroll" component={Scroll} />
       <Route path="/masonry" component={MasonryPage} />
       <Route path="/modal" component={Modal} />
+      <Route path="/cc" component={CreditCard} />
+      <Route path="/chart" component={Chart} />
     </Route>
   </Router>
 );

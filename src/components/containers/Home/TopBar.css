@@ -1,0 +1,23 @@
+.topBar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	font-size: 16px;
+}
+
+.item{
+
+	list-style-type: none;
+	padding: 24px 32px;
+	letter-spacing: 1px;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 12px;
+}
+
+.item:hover{
+	background: #fff;
+	color: #2980B9;
+	transition: background-color 500ms linear;
+}

@@ -90,7 +90,7 @@ export default class MobileCamera extends Component {
  		}
 
     	return (
-      		<div>
+      		<div style={{background:"#fff"}}>
       			<PageHeader>
       				<PageTitle>Mobile Camera Pic</PageTitle>
       			</PageHeader>

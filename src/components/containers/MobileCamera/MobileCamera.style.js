@@ -3,7 +3,6 @@ import styled, {css} from 'styled-components';
 export const MobileCameraDiv = styled.div`
   
 	width:800px;
-	height: 600px;
 	padding: 48px 36px;
 	border-radius: 6px;
 	margin: 0 auto;

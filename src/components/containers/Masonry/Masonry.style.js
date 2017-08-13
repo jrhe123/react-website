@@ -3,7 +3,6 @@ import styled, {css} from 'styled-components';
 export const MasonryDiv = styled.div`
   
 	width:1000px;
-	height: 600px;
 	padding: 48px 36px;
 	border-radius: 6px;
 	margin: 0 auto;

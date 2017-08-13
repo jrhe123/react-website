@@ -29,9 +29,11 @@ class Nav extends Component{
 	        <MenuWrap wait={20}>
 	          <Menu id={this.state.currentMenu} pageWrapId={'page-wrap'} outerContainerId={'outer-container'}>
 	            <Link to="/">Home</Link>
-	            <Link to="/alert">Alert</Link>
-	            <Link to="/countup">Count</Link>
-	            <Link to="/motion">Motion</Link>
+	            <Link to="/chart">Chart Diagram</Link>
+	            <Link to="/alert">Alert Service</Link>
+	            <Link to="/countup">Count Module</Link>
+	            <Link to="/cc">Credit Card</Link>
+	            <Link to="/motion">Motion Effect</Link>
 	            <Link to="/collapseAccordion">Collapse Accordion</Link>
 	            <Link to="/uimask">Masked UI</Link>
 	            <Link to="/datepicker">Date Picker</Link>
@@ -40,7 +42,7 @@ class Nav extends Component{
 	            <Link to="/camera">Web Camera Pic</Link>
 	            <Link to="/mobile">Mobile Camera Pic</Link>
 	            <Link to="/scroll">Infinite Scroll</Link>
-	            <Link to="/modal">Modal</Link>
+	            <Link to="/modal">Modal Service</Link>
 	          </Menu>
 	        </MenuWrap>
 	    );

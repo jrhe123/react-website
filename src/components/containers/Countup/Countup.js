@@ -84,7 +84,7 @@ export default class Countup extends Component {
  		}
 
     	return (
-    		<div>
+    		<div style={{background:"#fff"}}>
 	    		<PageHeader>
 	    			<PageTitle>Count up & confirm box</PageTitle>
 	    		</PageHeader>

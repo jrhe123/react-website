@@ -53,7 +53,7 @@ export default class MasonryPage extends Component {
   	render() {
 
     	return (
-      		<div>
+      		<div style={{background:"#fff"}}>
       			<PageHeader>
       				<PageTitle>Animated Masonry</PageTitle>
       			</PageHeader>
@@ -64,6 +64,7 @@ export default class MasonryPage extends Component {
 
       				<Masonry
 			            className="masonry"
+			            style={{background:"#fff"}}
 			            hasMore={this.state.hasMore}
 			            loader={
 			              <div className="sk-folding-cube">

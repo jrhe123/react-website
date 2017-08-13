@@ -54,7 +54,7 @@ export default class CollapseAccordion extends Component {
  		}
 
     	return (
-    		<div>
+    		<div style={{background:"#fff"}}>
     			<PageHeader>
     				<PageTitle>Collapsible Accordion</PageTitle>
     			</PageHeader>

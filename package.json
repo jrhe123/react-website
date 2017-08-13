@@ -2,6 +2,7 @@
   "name": "portfolio-tutorial",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jrhe123.github.io/react-website",
   "devDependencies": {
     "autoprefixer": "6.7.2",
     "babel-core": "6.22.1",
@@ -27,6 +28,7 @@
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.10.0",
     "fs-extra": "0.30.0",
+    "gh-pages": "^1.0.0",
     "html-webpack-plugin": "2.24.0",
     "http-proxy-middleware": "0.17.3",
     "jest": "18.1.0",
@@ -43,6 +45,8 @@
     "whatwg-fetch": "2.0.2"
   },
   "dependencies": {
+    "card-react": "^1.2.7",
+    "chart.js": "^2.6.0",
     "lodash": "^4.17.4",
     "lodash.range": "^3.2.0",
     "moment": "^2.18.1",
@@ -53,6 +57,8 @@
     "react-alert": "^2.2.0",
     "react-bootstrap": "^0.31.2",
     "react-burger-menu": "^2.1.4",
+    "react-cards": "^0.2.2",
+    "react-chartjs-2": "^2.5.6",
     "react-collapsible": "^1.5.0",
     "react-confirm-alert": "^1.0.7",
     "react-countup": "^2.1.1",
@@ -75,6 +81,7 @@
     "react-signature-pad": "0.0.6",
     "react-spinners": "0.0.29",
     "react-sweet-progress": "^1.1.0",
+    "react-typist": "^1.1.1",
     "react-webcam": "^0.2.0",
     "reactstrap": "^4.8.0",
     "sha1": "^1.1.1",
@@ -82,12 +89,15 @@
     "simple-react-progress-bar": "^2.1.0",
     "styled-components": "^1.4.4",
     "superagent": "^3.5.2",
-    "sweetalert-react": "^0.4.10"
+    "sweetalert-react": "^0.4.10",
+    "theaterjs": "^3.1.0"
   },
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [

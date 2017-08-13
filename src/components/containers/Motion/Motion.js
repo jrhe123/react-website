@@ -114,7 +114,7 @@ export default class Motion extends Component {
  		}
 
     	return (
-    		<div>
+    		<div style={{background:"#fff"}}>
 	    		<PageHeader>
 	    			<PageTitle>Motion Draggable</PageTitle>
 	    		</PageHeader>

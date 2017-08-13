@@ -91,7 +91,7 @@ export default class Signature extends Component {
  		}
 
     	return (
-      		<div>
+      		<div style={{background:"#fff"}}>
       			<ProgressBar percent={this.state.percent}
       						 spinner={false}
       						  />

@@ -100,7 +100,7 @@ export default class Scroll extends Component {
         });
 
     	return (
-      		<div>
+      		<div style={{background:"#fff"}}>
       			<PageHeader>
       				<PageTitle>Infinite Scroll</PageTitle>
       			</PageHeader>
